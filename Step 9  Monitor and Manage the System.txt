@@ -1,0 +1,13 @@
+Monitor and Manage the System
+
+Set Up Logging and Monitoring:
+
+Use Google Cloud’s logging and monitoring tools to keep track of system performance and errors.
+Go to the Logging and Monitoring sections in the Google Cloud Console.
+
+Regularly Retrain the Model:
+
+Monitor model performance and update the training data as needed.
+
+
+This workflow provides a comprehensive guide to collecting data from IoT sensors using Arduino, ingesting it into Google Cloud, storing it in BigQuery, training a machine learning model, and deploying it for real-time predictions and alerts, including sending SMS notifications with GPS locations when danger is detected.

@@ -1,0 +1,13 @@
+Upload Data to Google Cloud Storage (GCS)
+
+Navigate to Cloud Storage:
+
+Go to the Google Cloud Console.
+
+Navigate to "Cloud Storage" and select your womensafety-bucket.
+
+Upload File:
+
+Click on the "Upload files" button.
+
+Select processed_data.csv from your local machine and upload it.

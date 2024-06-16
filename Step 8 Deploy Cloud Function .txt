@@ -1,0 +1,5 @@
+
+Deploy the Cloud Function:
+--------------------------
+
+gcloud functions deploy predict_and_alert runtime python310 trigger-topic iot-sensor-data region=asia-south1

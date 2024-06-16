@@ -1,0 +1,19 @@
+Create a Cloud Function to Trigger Predictions and Send Alerts:
+---------------------------------------------------------------
+
+Use Twilio for SMS Notifications:
+
+Sign up for a Twilio account and get your account SID and auth token.
+--------
+vchinraj.sap@gmail.com
+safety code : YNWG3SRQ2YK3WXV1ZEX9C8XX
+
+Install the Twilio Python library:
+----------------------------------
+pip install twilio
+
+
+
+
+
+

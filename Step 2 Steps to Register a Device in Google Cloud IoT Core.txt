@@ -1,0 +1,33 @@
+Steps to Register a Device in Google Cloud IoT Core:
+
+To connect your IoT device (like an Arduino Uno with an ESP8266) to Google Cloud IoT Core, you need to register the device in Google Cloud IoT Core
+
+Set Up Google Cloud IoT Core:
+
+	Ensure you have a Google Cloud Platform (GCP) account.
+	Create a new project or use an existing one.
+	
+Enable IoT Core API:
+
+	In the GCP Console, go to the APIs & Services dashboard.
+	Enable the IoT Core API for your project.
+
+Create an IoT Core Registry:
+
+	In the GCP Console, navigate to IoT Core.
+	Click Create a registry.
+	Fill in the details such as registry ID, region, and choose a default telemetry topic.
+	
+Register a Device:
+
+	Inside your IoT Core registry, go to the Devices tab.
+	Click Create a device.
+	Fill in the device ID (this is your womensafty-device_id).
+	Configure the device authentication using public/private key pairs.
+	Optionally, configure other device settings.
+	
+Retrieve Device ID:
+
+	After creating the device, you'll see it listed under the Devices tab of your registry.
+	The device_id is the ID you provided during device registration.
+

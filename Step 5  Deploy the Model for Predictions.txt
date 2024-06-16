@@ -1,0 +1,16 @@
+Deploy the Model for Predictions
+
+Deploy the Model on Vertex AI:
+---
+Upload the model.pkl and scaler.pkl to a Google Cloud Storage bucket.
+
+Create a model resource in Vertex AI and deploy it.
+---
+
+gcloud ai models upload --region=asia-south1  --display-name="iot-sensor-model" --artifact-uri=gs://womensafty-bucket/model.pkl     --container-image-uri=gcr.io/cloud-aiplatform/prediction/sklearn-cpu.0-23:latest
+
+Create an endpoint and deploy the model:
+---
+
+
+gcloud ai endpoints create --region=asia-south1 --display-name="iot-sensor-endpoint" gcloud ai endpoints deploy-model     --region=asia-south1     --model="iot-sensor-model"     --display-name="iot-sensor-model-deployment"     --machine-type="n1-standard-2"     --endpoint="iot-sensor-endpoint"
